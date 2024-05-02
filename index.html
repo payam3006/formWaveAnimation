@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormWaveAnimation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form action="">
+
+        <h1>Please Login</h1>
+
+        <div class="inputBox">
+            <input id="email" type="text" required>
+            <label class="emailLable" for="email">
+                <span style=" transition-delay: 0;">E</span>
+                <span style=" transition-delay: 0.05s;">m</span>
+                <span style=" transition-delay: 0.1s;">a</span>
+                <span style=" transition-delay: 0.15s;">i</span>
+                <span style=" transition-delay: 0.2s;">l</span>
+            </label>
+        </div>
+
+        <div class="inputBox">
+            <input id="password" type="password" onchange="checkGoUp()" required>
+            <label id="passLable" class="passwordLable " for="password">
+                <span style=" transition-delay: 0;">P</span>
+                <span style=" transition-delay: 0.05s;">a</span>
+                <span style=" transition-delay: 0.1s;">s</span>
+                <span style=" transition-delay: 0.15s;">s</span>
+                <span style=" transition-delay: 0.2s;">w</span>
+                <span style=" transition-delay: 0.25s;">o</span>
+                <span style=" transition-delay: 0.3s;">r</span>
+                <span style=" transition-delay: 0.35s;">d</span>
+            </label>
+        </div>
+
+        <div class="btn">Login</div>
+
+        <div class="question">
+            <h5>Don't have an account?</h5>
+            <h5 style="color: lightblue; cursor: pointer;">Register</h5>
+        </div>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
